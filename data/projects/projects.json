@@ -1,0 +1,192 @@
+[
+    {
+        "title": "Drone SLAM",
+        "overview": "Development, implementation and testing of simultaneous localization of a drone device, whilst mapping landmarks through an Extended Kalman Filter resorting to Ultra-Wide Band sensors and an Inertial Measurment Unit.",
+        "description": "Simultaneous localization of a drone device and mapping of landmarks through an Extended Kalman Filter resorting to Ultra-Wide Band sensors and an Inertial Measurment Unit.\n\n Aditionally, a creative method to get the sistem's initialization through least squares optimization was also design, implemented and tested.\n\nBelow you can find the project's paper as well as the source code.",
+        "natures": ["Academic", "Robotics"],
+        "technologies": ["Kalman Filter", "Optimization"],
+        "tools": ["MATLAB", "Python", "ROS"],
+        "media": {
+            "pdf": ["data/projects/pdf/Projeto_de_SA.pdf"],
+            "video": null,
+            "images": null
+        },
+        "repository": "https://github.com/silvaordie/Drone-SLAM-EKF"
+
+    },
+    {
+        "title": "Housepicker",
+        "description": "Personal webscrapping project to automatically fetch appartments to rent, and classify them according to the commuting time to points of interest and other relevant metrics like Price, Area and living quality.\n\nAppartment information was Webscrapped from the most populat swiss housing websites.\nCommuting distance gathered from Google Mapas API.\nData visualization and classification via Google sheets.\n\nThe Spreadsheet that calculates the commuting times and ranks each appartment is available for free at: <a class = 'hyperlink' href='https://payhip.com/b/QtdWY' target = '_blank' >My Spreadsheet shop </a>",
+        "overview": "Personal webscrapping project to automatically fetch appartments to rent, and classify them according to the commuting time to points of interest and other relevant metrics like Price, Area and living quality.",
+        "natures": ["Personal Project", "Data Engineering", "Data Analysis" ],
+        "technologies": ["Webscraping", "API"],
+        "tools": ["Python","Google API","Google Sheets", "Apps Script"],
+        "media": {
+            "pdf": null,
+            "video": null,
+            "images": null
+        }
+    },
+    {
+        "title": "Brain Automotive Manager",
+        "description": "This project was developed at JUNITEC in collaboration with CEiiA center of engineering and product development. You may find the resulting unpublished paper below.",
+        "overview":"Using EEG signals to predict a Driver's intention to turn, using a low-cost Brain-Computer Interface",
+        "natures": ["Research", "Machine Learning", "Signal Processing", "Software Development"],
+        "technologies": ["EEG", "Game Dev", "Eletronics"],
+        "tools": ["MATLAB", "Python","C++", "Arduino", "UnrealEngine4", "EEGLAB"],
+        "media": {
+            "pdf": ["data/projects/pdf/BAM.pdf"],
+            "video": null,
+            "images": null
+        }
+    },
+    {
+        "title": "Dental Clinic Information System",
+        "description": "This project concerns the development of an information system supporting the day-to-day operations of a dental clinic. The relational database associated with this information system aims, not only to offer an all-purpose archive and organization tool for the different types of data generated during clinical practice, but also to provide a complete data mining platform. \n\nThis work was carried out under the Databases and Information Systems course and below you may find the reports detailing the databse's modeling, implementation and interface as well as the project's repository.",
+        "overview":"Modeling, developing and managing the information system (Database) of a Dental Clinic",
+        "natures": ["Academic", "Data Engineering"  ],
+        "technologies": ["Databases", "Web-dev"],
+        "tools": ["mySQL", "PHP"],
+        "media": {
+            "pdf": [{"Modeling":"data/projects/pdf/SIBD1.pdf"}, {"Implementation":"data/projects/pdf/SIBD2.pdf"}, {"Interface":"data/projects/pdf/SIBD1.pdf"}],
+            "video": null,
+            "images": null
+        },
+        "repository":"https://github.com/silvaordie/Dental-Clinic-Information-System?"
+    },
+    {
+        "title": "Automatic personal finance organiser",
+        "description": "Developped a Google Sheets based solution to provide key metrics about one's personal finances. \n\nThe spreadsheet provides insights about spendings, earnings and investments fully costumisable to each user's needs. It is also possible set individual goals and track their progress without manual entry of data.\n\nThe Spreadsheet is available for free at: <a class = 'hyperlink' href='https://payhip.com/b/xQUgG' target = '_blank' >My Spreadsheet shop </a>",
+        "overview":"Providing an automatic overview of personal finances by category, automatically through the bank transactions",
+        "natures": ["Personal Project", "Data Engineering", "Data Visualization"  ],
+        "technologies": ["CSV", "Pivot-Tables", "ETL"],
+        "tools": ["Google Sheets", "Apps Script"],
+        "media": {
+            "pdf": null,
+            "video": null,
+            "images": null
+        }
+    },
+    {
+        "title": "Vision-based detection and grasping by a mobile robot",
+        "description": "This project aimed to tackle on of the MBZIRC's 2020 challenges, where it is desired to detect, approach and grab a red brick with a mobile manipulator.\n\nIterative multi-shot pose estimation method was developed, capable of constantly estimating the desired object s pose at a high frequency, implemented into a suitable grasping strategy, which is capable to perform the detection, approaching and grasping in a faster and more dynamically while maintaining the reliability and accuracy results of the previous single-shot approaches.\n\nThis work was developped under my master thesis and you can find below the extended abstract.",
+        "overview":"(Master Thesis) Design, implementation and testing of an iterative method to detect, approach and grasp objects in complex, unstructured environments.",
+        "natures": ["Academic", "Robotics","Computer Vision"],
+        "technologies": ["YOLO", "Color-Segmentation", "ICP", "Kalman Filter", "Motion Planning", "Point-cloud", "State-Machines"],
+        "tools": ["MATLAB", "Python", "ROS", "Gazebo", "Unity 3D", "Google Colab", "OpenCV"],
+        "media": {
+            "pdf": ["data/projects/pdf/TESE.pdf"],
+            "video": null,
+            "images": null
+        }
+    },
+    {
+        "title": "Ant-colony Optimization (TCP)",
+        "description": "The goal of this work was to design and implement in Java and UML, that aplies an algorithm emulating an Ant Colony to the TSP optimization problem.\n\nThe ants' info and future paths (TSP graph paths) are given as the program's input and through their trailing pheromones and evaporation times, the program determines the optimal paths to the TSP.\n\nThis project was developped under the Object Oriented Programming course and below you may find the respective UML diagram, final report (in Portuguese) and the project code.",
+        "overview":"Application of an algorithm emulating an Ant Colony to the TSP optimization problem.",
+        "natures": ["Academic", "Software Development"],
+        "technologies": ["Object-Oriented Programming","UML"],
+        "tools": ["Java", "Eclipse"],
+        "media": {
+            "pdf": ["data/projects/pdf/POO.pdf"],
+            "video": null,
+            "images": null
+        },
+        "repository":"https://github.com/silvaordie/AntColonySimulation?"
+    },
+    {
+        "title": "Museum on Fire",
+        "description": "In September 2nd of 2018 a huge fire consumed more than 93% of the National Museum of Brasil collection, built over a period of two centuries. It is believed that the bad condition of the electrical system was the major cause of this tragic event. Moreover, there were plans to reform the fire prevention system, which were not implemented in due time. This mini-project addresses the problem of fire detection in a museum, taking into account a simple fire propagation model and the uncertainty associated with the fire detectors spread over the building.\n\n Let a museum be modeled by an undirected graph, this work takes readings from the fire-sensors in each room and determines the room which has the higher probability of beeing on fire.\n\nThis project was carried out under th Artificial Intellignece course, you can find more information about it in the respective GitHub page.",
+        "overview":"Application of an algorithm emulating an Ant Colony to the TSP optimization problem.",
+        "natures": ["Academic", "Artificial Intelligence"],
+        "technologies": ["Bayes Network","Probability and Statistics"],
+        "tools": ["Python"],
+        "media": {
+            "pdf": null,
+            "video": null,
+            "images": null
+        },
+        "repository":"https://github.com/silvaordie/The-museum-is-on-fire?"
+    },
+    {
+        "title": "Autonomous Navigating Robot",
+        "description": "This project presents a solution to a navigation problem of a mobile robot in a previously known enviornment with 2 components:\n\n 1. Movement of the Robot: Make the robot move on the 5th floor of the North Tower, with the following path: Start inside the Robotics laboratory, complete a turn through the corridors of the floor and finish in the same place where it started. To do so, the robot must avoid hitting the obstacles present in this route, controlling itself through the sensors available to the students - Odometry and Sonars of the robot and the Laser Range Finder.\n\n 2. Detection of doors: Make the robot detect a door whenever, during its journey, it passes through them, turning towards the front. He must also be able to differentiate a closed, open and semi-open door, reacting differently to the 3: producing a sound or phrase that applies to the respective case.\n\nThe project was developed under the scope of the Robotics course, below you may find a demo of the Door detecting mechanism during the robot's navigation and the final report (in Portuguese).",
+        "overview":"Solution to a navigation problem of a mobile robot in a known eviornment whilst detecting and mapping key interest points (Doors).",
+        "natures": ["Academic", "Artificial Intelligence", "Robotics", "Signal Processing", "Software Development"],
+        "technologies": ["Systems Programming","Motion Planning", "RANSAC", "Linear Regression", "State-Machines", "Sonar", "LRF"],
+        "tools": ["MATLAB"],
+        "media": {
+            "pdf": ["data/projects/pdf/Robotica.pdf"],
+            "video": null,
+            "images": null
+        },
+        "repository":"https://github.com/silvaordie/Autonomous-navigating-robot?"
+    },
+    {
+        "title": "Wordmorph (Word ladder)",
+        "description": "Wordmorph consists in a program that given 2 words, finds the shortest path that transforms the first word in the second. Each step of this path is given by a transformation of 1 or more characters from a given word into another existing one. This is desired to be achieved using the least ammount of time and memory complexity.\n\nThis project was developed under the Algorithms&Data Structures course and below you may find it's report (in Portuguese) and respective repository.",
+        "overview":"Finding the shortest path that transforms a given word into another, by applying iterative mutations into other words in the dictionary.",
+        "natures": ["Academic", "Algorithms", "Software Development"],
+        "technologies": ["Dijkstra ALgorithm", "Heaps"],
+        "tools": ["C"],
+        "media": {
+            "pdf": ["data/projects/pdf/AED.pdf"],
+            "video": null,
+            "images": null
+        },
+        "repository":"https://github.com/silvaordie/Wordmorph?"
+    },
+    {
+        "title": "Wi-fi hotspot detection with a moving token on a sensor graph",
+        "description": "Description of Project B.",
+        "overview":"Modeling and simulating the behaviour of a moving token agent in a sensor graph and the impact on the detection of the Wi-fi hotspot",
+        "natures": ["Academic", "Simulation", "Modeling", "Statistics"],
+        "technologies": ["Monte Carlo", "Markov chain"],
+        "tools": ["MATLAB"],
+        "media": {
+            "pdf": null,
+            "video": null,
+            "images": ["link/to/image3.jpg"]
+        }
+    },
+    {
+        "title": "Concentration: Online competitive Memory Game",
+        "description": "Concentration is a game where multiple players play the classic memory game over a local distributed network. It resorts to a mixed architecture of N-Tier and Client-Server to handle the synchronization between the players and the board.\n\nThis project was developped under the Systems Prgraming course, below you can find the project repository and the final report (in Portuguese).",
+        "overview":"Implementation of a competitve memory game over a local distributed network.",
+        "natures": ["Academic", "Software Development"],
+        "technologies": ["Systems Programming", "N-Tier Architecture", "Client-Server Architecture", "Multi-threading", "API"],
+        "tools": ["C"],
+        "media": {
+            "pdf": ["data/projects/pdf/PSIS.pdf"],
+            "video": null,
+            "images": null
+        }
+    },
+    {
+        "title": "Airline Scheduling and Routing",
+        "description": "The airline industry is one of the most competitive ones in the world economy. For instance, the pressure of the low-cost airliners pushed the whole industry to pursue cost efficiency. One critical components of this efficiency is the scheduling and routing of the airplanes, given a set of legs to be flown by the company. This project addresses the problem of finding the daily schedule and routing of airplanes that maximizes the company profit, hereby called the Airline Scheduling And Routing (ASAR) problem.\n\nThis project was developed under the Artificial Inteligence course, you can find more info about it in thee respective repository.",
+        "overview":"Maximizing an airline's profit by optimizing the schedule and routing of airplanes. (ASAR Problem)",
+        "natures": ["Academic", "Algorithms", "Artificial Intelligence"],
+        "technologies": ["Graphs", "Trees", "A* Algorithm"],
+        "tools": ["Python"],
+        "media": {
+            "pdf": null,
+            "video": null,
+            "images": null
+        },
+        "repository":"https://github.com/silvaordie/Airline-Scheduling-and-Routing?"
+    },
+    {
+        "title": "Infoled - Notification sorting phone stand",
+        "description": "The notification sorting phone stand was the result of an originally challenge of detecting sound patterns with a piezzo buzzer. After many iterations, the phone stand was born, providing a purpose to the initial challenge.\n\nBelow you may find a short presentation about it (in Portuguese)",
+        "overview":"Maximizing an airline's profit by optimizing the schedule and routing of airplanes. (ASAR Problem)",
+        "natures": ["Entrepreneurship"],
+        "technologies": ["Prototyping", "Signal Processing", "Eletronics", "3D Modeling", "Arduino"],
+        "tools": ["C++", "AutoCad"],
+        "media": {
+            "pdf": ["data/projects/pdf/JUNI.pdf"],
+            "video": null,
+            "images": null
+        }
+    }
+]

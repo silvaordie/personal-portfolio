@@ -1,0 +1,58 @@
+<!-- experiences.html -->
+<div id="experiences">
+    <div class="filter-container">
+        <div>
+            <label for="nature-filter">Select Nature:</label>
+            <select id="nature-filter"><!-- onchange="addFilter('nature', this.value)"-->
+                <option value="">Select Nature</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="technology-filter">Select Technology:</label>
+            <select id="technology-filter"><!-- onchange="addFilter('technology', this.value)"-->
+                <option value="">Select Technology</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="tools-filter">Select Tools:</label>
+            <select id="tools-filter"><!-- onchange="addFilter('tools', this.value)"-->
+                <option value="">Select Tools</option>
+            </select>
+        </div>
+    </div>
+    <div class="chart-container">
+        <div class="chart-wrapper">
+            <div class="chart-holder">
+                <canvas id="natureChart" class="chart"></canvas>
+            </div>
+            <div id="natureLegend" class="legend"></div>
+        </div>
+        <div class="chart-wrapper">
+            <div class="chart-holder">
+                <canvas id="technologyChart" class="chart"></canvas>
+            </div>
+            <div id="technologyLegend" class="legend"></div>
+        </div>
+        <div class="chart-wrapper">
+            <div class="chart-holder">
+                <canvas id="toolsChart" class="chart"></canvas>
+            </div>
+            <div id="toolsLegend" class="legend"></div>
+        </div>
+    </div>
+    <div id="active-filters" class="active-filters-container">
+        <h3>Active Filters:</h3>
+        <!-- Active filters will be dynamically populated here -->
+    </div>
+    <div class="experience-section">
+        <h2>Work Experiences</h2>
+        <div id = "work-experiences" class="work-experiences"></div>
+    </div>
+
+    <div class="experience-section">
+        <h2>Voluntary Experiences</h2>
+        <div id = "voluntary-experiences" class="voluntary-experiences"></div>
+    </div>
+</div>

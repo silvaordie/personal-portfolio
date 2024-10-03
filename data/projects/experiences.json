@@ -1,0 +1,187 @@
+{
+    "work": [
+      {
+        "title": "Senior Automation and Data Engineer",
+        "description":"Responsible for the development of automation in application testing, automation of management processes and business integrations.",
+        "company": "Bank J. Safra Sarasin",
+        "location": "Basel-Stadt, Switzerland",
+        "startDate": "Aug 2023",
+        "endDate": "Present",
+        "technologies": ["API", "Databases", "Systems Programming"],
+        "natures": ["Test Automation", "Automation", "Data Engineering", "Data Visualization", "Software Development", "ETL", "ELT"],
+        "bulletPoints": [
+          {
+            "text": "Improved automated E2E and Unitary tests' reliability in 90%",
+            "tools": [ "Avaloq", "SQL", "VBA"]
+          },
+          {
+            "text": "Engineered a custom Business Integration tool, housing results of over 20k test executions.",
+            "tools": [ "Jira", "XRAY", "Python", "Java"]
+          },
+          {
+            "text": "Introduced and developed business automations, eliminating over 16 hours of manual weekly workload.",
+            "tools": [ "Python", "Java", "VBA", "Excel" ]
+          },
+          {
+            "text": "Developed an automated system to extract 5 different key business metrics from test data, improving traceability in over 100%.",
+            "tools": [ ]
+          },
+          {
+            "text": "Aggregated data from 4 multiple sources into a centralized and structured data system.",
+            "tools": [ "Python", "SQL" ]
+          },
+          {
+            "text": "Delivered Machine Learning algorithms to predict future productive issues with 90% accuracy.",
+            "tools": [  "Python", "Keras"]
+          },
+          {
+            "text": "Modeled and programmed an in-house server system to manage the request, execution and reporting of tests.",
+            "tools": [ "Python", "SQL", "Jira", "Java" ]
+          },
+          {
+            "text": "Coordinated and executed the deployment of the in-house server system.",
+            "tools": [ ]
+          },
+          {
+            "text": "Introduced a technology-based recruitment strategy and onboarding, reducing the turnover rate by 70%.",
+            "tools": [ ]
+          }
+        ]
+      },
+      {
+        "title": "Gradute program (Multiple positions)",
+        "description": "Responsible for the E2E availability and integration of the cloud‑based TV service in the European markets, ensuring the quality and excellence. (Integration Engineer, Business Analyst, Project Manager)",
+        "company": "Vodafone",
+        "location": "Lisbon, Portugal",
+        "startDate": "Sep 2020",
+        "endDate": "Jul 2023",
+        "technologies": ["Agile", "AWS","Cloud-hosting", "API","Cloud-infrastructure", "Cloud-computing"],
+        "natures": ["Project Management", "Data Analysis", "Data Visualization", "Cloud", "System Engineering"],
+        "bulletPoints": [
+          {
+            "text": "Led the technical deployment of the WebTV and Chromecast solution for 6 countries.",
+            "tools": []
+          },
+          {
+            "text": "Led the technical integration of the TV Service in Albania.",
+            "tools": []
+          },
+          {
+            "text": "Created a remote testing lab with automated physical testing for all 11 VTV markets.",
+            "tools": []
+          },    
+          {
+            "text": "Pioneered a feature delivery pipeline, reducing the time to market by 50% and clearing a 1-year-old backlog.",
+            "tools": [ "Jira"]
+          },  
+          {
+            "text": "Developed a data‑driven audit procedure, reducing the required configurations by 40%.",
+            "tools": [  "Kibana",  "Elastic", "VBA", "SQL"]
+          },  
+          {
+            "text": "Designed and managed the implementation of API unit testing  and reporting in all 11 VTV Markets.",
+            "tools": [  "API", "Kibana"]
+          },   
+          {
+            "text": "Introduced several automated testing initiatives, improving testing coverage over 100%.",
+            "tools": [ "Python", "Selenium", "Kibana"]
+          },   
+          {
+            "text": "Built custom audit and migration tools,replacing 100% of previous manual tasks.",
+            "tools": [ "Python", "AWS", "Kibana", "Elastic", "Postman"]
+          }       
+        ]
+      }
+    ],
+    "voluntary": [
+      {
+        "title": "Manager",
+        "description":"Managed the innovation department by recruiting members, managing the budget, and maintaining/improving the acceleration program.",
+        "company": "JUNITEC ‑ Júnior Empresas do Instituto Superior Técnico",
+        "location": "Lisbon, Portugal",
+        "startDate": "Jun 2019",
+        "endDate": "Sep 2020",
+        "technologies": ["Leadership", "Partnerships"],
+        "natures": ["Entrepreneurship", "Management", "Project Management"],
+        "bulletPoints": [
+          {
+            "text": "Led 4 multidisciplinary teams, providing them with guidance in technology and management.",
+            "tools": []
+          },
+          {
+            "text": "Formed 9 external partnerships and assembled a network of 24 mentors for advisory in finance, legal, industry, and other.",
+            "tools": []
+          },
+          {
+            "text": "Launched 4 start‑ups with a cumulative investment of 100k€.",
+            "tools": []
+          },
+          {
+            "text": "Awarded with ”Most Entrepreneurial European JE”.",
+            "tools": []
+          },
+          {
+            "text": "Awarded with ”Most Innovative JE in Portugal”.",
+            "tools": []
+          }
+        ]
+      },
+      {
+        "title": "Hardware/Software Engineer",
+        "description":"Developed the Signal Processing, electronics, and Machine Learning aspects of the collaboration project with CEiiA.",
+        "company": "JUNITEC ‑ Júnior Empresas do Instituto Superior Técnico",
+        "location": "Lisbon, Portugal",
+        "startDate": "Jun 2018",
+        "endDate": "Jun 2019",
+        "technologies": ["EEG", "Game Dev", "Eletronics"],
+        "natures": ["Research", "Machine Learning","Signal Processing"],
+        "bulletPoints": [
+          {
+            "text": "Wrote an unpublished scientific paper with the results",
+            "tools": ["LaTeX"]
+          },
+          {
+            "text": "Led the monthly technology status meetings with CEiiA’s board.",
+            "tools": []
+          },
+          {
+            "text": "Constructed a low‑budget driving simulation rig.",
+            "tools": [ "Electronics", "Arduino", "C++", "Python" ]
+          },
+          {
+            "text": "Programmed a controlled driving simulation environment for data gathering.",
+            "tools": [ "UnrealEngine", "C#", "AirSim" ]
+          },
+          {
+            "text": "Engineered an EEG signal processing pipeline feature extraction",
+            "tools": [ "MATLAB", "EEG", "Python", "Signal Processing" ]
+          },
+          {
+            "text": "Awarded ”Project of the Year” in the Portuguese JE movement",
+            "tools": [ ]
+          }
+        ]
+      },
+      {
+        "title": "Tutor",
+        "description":"Helping kids by tutoring them on high‑school Math and University level C programming.",
+        "company": "Freelance",
+        "location": "Lisbon, Portugal",
+        "startDate": "Sep 2022",
+        "endDate": "Sep 2023",
+        "technologies": ["Education", "Maths", "Programming"],
+        "natures": ["Tutoring", "Freelance" ],
+        "bulletPoints": [
+          {
+            "text": "Tutored 2 highschool students in Maths and 2 University students with programming.",
+            "tools": ["C", "Python"]
+          },
+          {
+            "text": "Pass Rate of 100% and an average grade improvement of 40%.",
+            "tools": []
+          }
+        ]
+      }
+    ]
+  }
+  

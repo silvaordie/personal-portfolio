@@ -1,0 +1,92 @@
+<div class="portfolio-container">
+    <div class="filter-container">
+        <div>
+            <label for="nature-filter">Select Nature:</label>
+            <select id="nature-filter"><!-- onchange="addFilter('nature', this.value)"-->
+                <option value="">Select Nature</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="technology-filter">Select Technology:</label>
+            <select id="technology-filter"><!-- onchange="addFilter('technology', this.value)"-->
+                <option value="">Select Technology</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="tools-filter">Select Tools:</label>
+            <select id="tools-filter"><!-- onchange="addFilter('tools', this.value)"-->
+                <option value="">Select Tools</option>
+            </select>
+        </div>
+    </div>
+    <div class="chart-container">
+        <div class="chart-wrapper">
+            <div class="chart-holder">
+                <canvas id="natureChart" class="chart"></canvas>
+            </div>
+            <div id="natureLegend" class="legend"></div>
+        </div>
+        <div class="chart-wrapper">
+            <div class="chart-holder">
+                <canvas id="technologyChart" class="chart"></canvas>
+            </div>
+            <div id="technologyLegend" class="legend"></div>
+        </div>
+        <div class="chart-wrapper">
+            <div class="chart-holder">
+                <canvas id="toolsChart" class="chart"></canvas>
+            </div>
+            <div id="toolsLegend" class="legend"></div>
+        </div>
+    </div>
+    <div id="active-filters" class="active-filters-container">
+        <h3>Active Filters:</h3>
+        <!-- Active filters will be dynamically populated here -->
+    </div>
+
+
+
+    <div id="project-container" class="project-container">
+        <!-- Project cards will be dynamically populated here -->
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal-button" class="close">&times;</span> <!-- onclick="closeModal()">-->
+            <h2 id="modal-title"></h2>
+            
+            <!-- New container for Natures, Technologies, and Tools -->
+            <div class="modal-info-container">
+                <!-- Natures List -->
+                <div class="modal-info-list">
+                    <h3>Natures</h3>
+                    <ul id="modal-natures-list">
+                        <!-- Dynamically populated Natures list -->
+                    </ul>
+                </div>
+    
+                <!-- Technologies List -->
+                <div class="modal-info-list">
+                    <h3>Technologies</h3>
+                    <ul id="modal-technologies-list">
+                        <!-- Dynamically populated Technologies list -->
+                    </ul>
+                </div>
+    
+                <!-- Tools List -->
+                <div class="modal-info-list">
+                    <h3>Tools</h3>
+                    <ul id="modal-tools-list">
+                        <!-- Dynamically populated Tools list -->
+                    </ul>
+                </div>
+            </div>
+            
+            <p id="modal-description"></p>
+            <div id="modal-media"></div>
+        </div>
+    </div>
+<div>
+
