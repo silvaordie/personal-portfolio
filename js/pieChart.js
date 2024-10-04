@@ -2,7 +2,6 @@ let charts = {};
 // Prepare the chart data based on filtered cards
 function getTopItems(category, allProjects, limit = 10) {
     const countMap = {};
-
     if(category == "tools" && allProjects.length >0 && allProjects[0].bulletPoints)
     {
         
@@ -18,9 +17,13 @@ function getTopItems(category, allProjects, limit = 10) {
     {
         allProjects.forEach(project => {
             project[category].forEach(item => {
-                countMap[item] = (countMap[item] || 0) + 1;
+                if( category!="natures" || !["Academic", "Personal Project"].includes(item))
+                {
+                    countMap[item] = (countMap[item] || 0) + 1;
+                } 
             });
         });
+        console.log(countMap)
     }
 
     // Sort the items by count and limit to top 5
@@ -58,7 +61,7 @@ function createPieChart(canvasId, chartData, title) {
                             const label = chartData[tooltipItem.dataIndex].label;
                             const value = chartData[tooltipItem.dataIndex].count;
 
-                            return `${label}: ${value}`;
+                            return ` ${value}`;
                         }
                     }
                 }
@@ -136,7 +139,7 @@ function updateCharts(filteredProjects) {
                         colorBox.className = 'color-box';
                         colorBox.style.backgroundColor = item.color; // Set the background color
                 
-                        const labelText = document.createTextNode(item.label);
+                        const labelText = document.createTextNode(item.label + " (" + item.count+")");
                 
                         legendItem.appendChild(colorBox);
                         legendItem.appendChild(labelText);

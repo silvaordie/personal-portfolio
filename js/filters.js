@@ -20,13 +20,27 @@ function populateFilter( elements, filter_type) {
                 return activeTechnologyFilters.length === 0 || 
                 element.technologies.some(technologie => activeTechnologyFilters.includes(technologie));
             });
-            filteredElements.forEach(element => {
-                if (element.tools) {
-                    element.tools.forEach(tool => {
-                        FilterSet.add(tool);
+            if(filteredElements.length >0 && filteredElements[0].bulletPoints)
+                {
+                    
+                    filteredElements.forEach(project => {
+                        project.bulletPoints.forEach( bullet => {
+                            bullet.tools.forEach(tool => {
+                                FilterSet.add(tool);
+                            });
+                        });
                     });
                 }
-            });
+            else
+            {
+                filteredElements.forEach(element => {
+                    if (element.tools) {
+                        element.tools.forEach(tool => {
+                            FilterSet.add(tool);
+                        });
+                    }
+                });
+            }
         }
         else
         {
