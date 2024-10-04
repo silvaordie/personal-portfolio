@@ -7,7 +7,7 @@
         "location": "Basel-Stadt, Switzerland",
         "startDate": "Aug 2023",
         "endDate": "Present",
-        "technologies": ["API", "Databases", "Systems Programming"],
+        "technologies": ["API", "Databases", "Systems Programming", "DevOps"],
         "natures": ["Test Automation", "Automation", "Data Engineering", "Data Visualization", "Software Development", "ETL", "ELT"],
         "bulletPoints": [
           {
@@ -56,7 +56,7 @@
         "startDate": "Sep 2020",
         "endDate": "Jul 2023",
         "technologies": ["Agile", "AWS","Cloud-hosting", "API","Cloud-infrastructure", "Cloud-computing"],
-        "natures": ["Project Management", "Data Analysis", "Data Visualization", "Cloud", "System Engineering"],
+        "natures": ["Project Management", "Data Analysis", "Data Visualization", "Cloud", "System Engineering", "DevOps", "Infrastructure"],
         "bulletPoints": [
           {
             "text": "Led the technical deployment of the WebTV and Chromecast solution for 6 countries.",
