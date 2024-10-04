@@ -28,11 +28,24 @@
         }
     },
     {
+        "title": "Email order and enquiry sorter through GenAI",
+        "description": "Develop a proof of concept application that intelligently processes email order requests and customer inquiries for a fashion store. The system should categorize emails into product inquiries or order requests and generate appropriate responses based on product catalog information and stock status.\n\nYou can find more details in the project's <a class = 'hyperlink' href='https://colab.research.google.com/drive/13SUfmHQkRuShgHxDvb8-L0-MAVUgZNbw?usp=sharing' target = '_blank' >Google Colab Notebook</a>",
+        "overview": "Proof of concept tool to read, classify, process and respond to customer emails enquirying about products or ordering them through GenAI.",
+        "natures": ["Personal Project", "Data Engineering", "Artificial Intelligence", "DevOps", "MLDevOps" ],
+        "technologies": ["GenerativeAI", "API" ],
+        "tools": ["Python","OpenAI","Google Sheets", "Google Colab", "Pandas"],
+        "media": {
+            "pdf": null,
+            "video": null,
+            "images": null
+        }
+    },
+    {
         "title": "Brain Automotive Manager",
         "description": "This project was developed at JUNITEC in collaboration with CEiiA center of engineering and product development. You may find the resulting unpublished paper below.",
         "overview":"Using EEG signals to predict a Driver's intention to turn, using a low-cost Brain-Computer Interface",
-        "natures": ["Research", "Machine Learning", "Signal Processing", "Software Development"],
-        "technologies": ["EEG", "Game Dev", "Eletronics"],
+        "natures": ["Research", "Machine Learning", "Signal Processing", "Software Development", "Electronics"],
+        "technologies": ["EEG", "Game Dev", "Spectral Analysis", "SVM"],
         "tools": ["MATLAB", "Python","C++", "Arduino", "UnrealEngine4", "EEGLAB"],
         "media": {
             "pdf": ["data/projects/pdf/BAM.pdf"],
@@ -137,6 +150,19 @@
         "repository":"https://github.com/silvaordie/Wordmorph?"
     },
     {
+        "title": "Personal Digital Resume",
+        "description": "This Website was built in order to extend the traditional resume format. Allowing curious minds to showcase their different endeaveours through technology in a more meaningful and easy to understand way.\n\nThe template will soon be available to download.",
+        "overview":"A digital resume where users can filter by experiences, technologies and tools. (This website)",
+        "natures": ["Personal Project", "Web Development"],
+        "technologies": ["Web-dev"],
+        "tools": ["HTML", "CSS", "JavaScript"],
+        "media": {
+            "pdf": null,
+            "video": null,
+            "images": null
+        }
+    },
+    {
         "title": "Wi-fi hotspot detection with a moving token on a sensor graph",
         "description": "Description of Project B.",
         "overview":"Modeling and simulating the behaviour of a moving token agent in a sensor graph and the impact on the detection of the Wi-fi hotspot",
@@ -153,7 +179,7 @@
         "title": "Concentration: Online competitive Memory Game",
         "description": "Concentration is a game where multiple players play the classic memory game over a local distributed network. It resorts to a mixed architecture of N-Tier and Client-Server to handle the synchronization between the players and the board.\n\nThis project was developped under the Systems Prgraming course, below you can find the project repository and the final report (in Portuguese).",
         "overview":"Implementation of a competitve memory game over a local distributed network.",
-        "natures": ["Academic", "Software Development"],
+        "natures": ["Academic", "Software Development", "Game Development"],
         "technologies": ["Systems Programming", "N-Tier Architecture", "Client-Server Architecture", "Multi-threading", "API"],
         "tools": ["C"],
         "media": {
@@ -180,13 +206,55 @@
         "title": "Infoled - Notification sorting phone stand",
         "description": "The notification sorting phone stand was the result of an originally challenge of detecting sound patterns with a piezzo buzzer. After many iterations, the phone stand was born, providing a purpose to the initial challenge.\n\nBelow you may find a short presentation about it (in Portuguese)",
         "overview":"Maximizing an airline's profit by optimizing the schedule and routing of airplanes. (ASAR Problem)",
-        "natures": ["Entrepreneurship"],
-        "technologies": ["Prototyping", "Signal Processing", "Eletronics", "3D Modeling", "Arduino"],
+        "natures": ["Entrepreneurship", "Electronics"],
+        "technologies": ["Prototyping", "Signal Processing", "3D Modeling", "Arduino", "3D Printing"],
         "tools": ["C++", "AutoCad"],
         "media": {
             "pdf": ["data/projects/pdf/JUNI.pdf"],
             "video": null,
             "images": null
         }
+    },
+    {
+        "title": "Tracking Moving Objects in a stereo RGB+Depth Setup.",
+        "description": "In this project, a method to identify and track moving objects in a scenario was developped on a setup where 2 RGB+Depth cameras were used.\n\nThis project was developped under the Image Processing and Vision course and you may find the project's report below (in Portuguese) as well as the code.",
+        "overview":"Indentify and track moving objects in a scenario on a setup with 2 RGB+Depth.",
+        "natures": ["Academic", "Computer Vision"],
+        "technologies": ["Stereo Imaging", "RANSAC", "Point-Cloud", "Proscrustes", "SIFT", "Kuhn Algorithm-Munkres"],
+        "tools": ["MATLAB"],
+        "media": {
+            "pdf": ["data/projects/pdf/PIV.pdf"],
+            "video": null,
+            "images": null
+        },
+        "repository":"https://github.com/silvaordie/Moving-Objects-Tracker?"
+    },
+    {
+        "title": "Local Multiplayer Blackjack",
+        "description": "This project concerns the development of a local multiplayer with a graphical interface in C with the hability to include AI players implementing a basic or card-counting strategy.\n\nThis project was carried out under the Progrmming course, below you may find it's repository.",
+        "overview":"A Local multiplayer Blackjack game with Human and AI players.",
+        "natures": ["Academic", "Software Development", "Game Development"],
+        "technologies": [],
+        "tools": ["C"],
+        "media": {
+            "pdf": null,
+            "video": null,
+            "images": null
+        },
+        "repository":"https://github.com/silvaordie/BlackJack?"
+    },
+    {
+        "title": "Self-balacing Motorbike",
+        "description": " This project's goal was to control an RC Motorbike in a way that it could autonomously self-balance, either by it's steering input or by controlling an internally mounted flywheel.\n\nThis was one of Critical Software's Summer Innovation Week challenges, below you can find the final presentation (in Portuguese) and projeect repository.",
+        "overview":"Controlling an RC Motorbike allowing it to slef-balance through steering input and/or internal flywheel",
+        "natures": ["Hackathon", "Robotics", "Electronics"],
+        "technologies": ["PID Control", "Kalman Filter", "3D Modeling", "3D Printing"],
+        "tools": ["Arduino", "C++"],
+        "media": {
+            "pdf": ["data/projects/pdf/SIW.pdf"],
+            "video": null,
+            "images": null
+        },
+        "repository":"https://github.com/TomasCostaK/SelfBalancingBike?"
     }
 ]
