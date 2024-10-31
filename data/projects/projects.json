@@ -85,7 +85,7 @@
         "description": "This project started as a challenge to see if I could name 1000 professional athletes during a Basel-Lisbon flight. I thought it would be then interesting to use gen-AI to parse the named athletes and then visualize the distribution per country, sport, leagues and clubs, awards and social media following.\n\n This is an ongoing project.",
         "overview":"How many athtletes can you name? Using OpenAI API to visualize the distribution per sport, nationality, leagues and others.",
         "natures": ["Personal Project", "Data Engineering", "Data Visualization"  ],
-        "technologies": ["Generative AI", "ETL"],
+        "technologies": ["Generative AI", "ETL", "API"],
         "tools": ["OpenAI", "Python", "Google Colab"],
         "media": {
             "pdf": null,
@@ -123,7 +123,7 @@
     {
         "title": "Museum on Fire",
         "description": "In September 2nd of 2018 a huge fire consumed more than 93% of the National Museum of Brasil collection, built over a period of two centuries. It is believed that the bad condition of the electrical system was the major cause of this tragic event. Moreover, there were plans to reform the fire prevention system, which were not implemented in due time. This mini-project addresses the problem of fire detection in a museum, taking into account a simple fire propagation model and the uncertainty associated with the fire detectors spread over the building.\n\n Let a museum be modeled by an undirected graph, this work takes readings from the fire-sensors in each room and determines the room which has the higher probability of beeing on fire.\n\nThis project was carried out under th Artificial Intellignece course, you can find more information about it in the respective GitHub page.",
-        "overview":"Application of an algorithm emulating an Ant Colony to the TSP optimization problem.",
+        "overview":"Using statistical modeling to access each museum room's probability of being on fire.",
         "natures": ["Academic", "Artificial Intelligence"],
         "technologies": ["Bayes Network","Probability and Statistics"],
         "tools": ["Python"],
