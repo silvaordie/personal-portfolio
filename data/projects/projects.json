@@ -81,6 +81,19 @@
         }
     },
     {
+        "title": "1000 Athletes",
+        "description": "This project started as a challenge to see if I could name 1000 professional athletes during a Basel-Lisbon flight. I thought it would be then interesting to use gen-AI to parse the named athletes and then visualize the distribution per country, sport, leagues and clubs, awards and social media following.\n\n This is an ongoing project.",
+        "overview":"How many athtletes can you name? Using OpenAI API to visualize the distribution per sport, nationality, leagues and others.",
+        "natures": ["Personal Project", "Data Engineering", "Data Visualization"  ],
+        "technologies": ["Generative AI", "ETL"],
+        "tools": ["OpenAI", "Python", "Google Colab"],
+        "media": {
+            "pdf": null,
+            "video": null,
+            "images": null
+        }
+    },
+    {
         "title": "Vision-based detection and grasping by a mobile robot",
         "description": "This project aimed to tackle on of the MBZIRC's 2020 challenges, where it is desired to detect, approach and grab a red brick with a mobile manipulator.\n\nIterative multi-shot pose estimation method was developed, capable of constantly estimating the desired object s pose at a high frequency, implemented into a suitable grasping strategy, which is capable to perform the detection, approaching and grasping in a faster and more dynamically while maintaining the reliability and accuracy results of the previous single-shot approaches.\n\nThis work was developped under my master thesis and you can find below the extended abstract.",
         "overview":"(Master Thesis) Design, implementation and testing of an iterative method to detect, approach and grasp objects in complex, unstructured environments.",
