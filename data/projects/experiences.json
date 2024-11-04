@@ -1,7 +1,7 @@
 {
     "work": [
       {
-        "title": "Senior Automation and Data Engineer",
+        "title": "Data & Automation Engineering Lead",
         "description":"Responsible for the development of automation in application testing, automation of management processes and business integrations.",
         "company": "Bank J. Safra Sarasin",
         "location": "Basel-Stadt, Switzerland",
@@ -49,47 +49,75 @@
         ]
       },
       {
-        "title": "Gradute program (Multiple positions)",
-        "description": "Responsible for the E2E availability and integration of the cloud‑based TV service in the European markets, ensuring the quality and excellence. (Integration Engineer, Business Analyst, Project Manager)",
+        "title": "Cloud Platform Engineer",
+        "description": "Led end-to-end cloud platform integration for multi-market TV services across Europe, ensuring platform availability and service excellence.",
         "company": "Vodafone",
         "location": "Lisbon, Portugal",
-        "startDate": "Sep 2020",
+        "startDate": "Sep 2021",
         "endDate": "Jul 2023",
         "technologies": ["Agile", "AWS","Cloud-hosting", "API","Cloud-infrastructure", "Cloud-computing"],
         "natures": ["Project Management", "Data Analysis", "Data Visualization", "Cloud", "System Engineering", "DevOps", "Infrastructure"],
         "bulletPoints": [
           {
-            "text": "Led the technical deployment of the WebTV and Chromecast solution for 6 countries.",
-            "tools": []
+            "text": "Architected and deployed cloud-based WebTV and Chromecast solutions on AWS infrastructure across 6 European markets.",
+            "tools": ["AWS"]
           },
           {
-            "text": "Led the technical integration of the TV Service in Albania.",
-            "tools": []
+            "text": "Established CI/CD pipeline using Agile and Jira, achieving 50% faster delivery times and eliminating 1-year feature backlog",
+            "tools": ["Jira"]
           },
           {
-            "text": "Created a remote testing lab with automated physical testing for all 11 VTV markets.",
+            "text": "Designed and implemented automated testing infrastructure serving 11 VTV markets through remote lab facilities.",
             "tools": []
           },    
           {
-            "text": "Pioneered a feature delivery pipeline, reducing the time to market by 50% and clearing a 1-year-old backlog.",
-            "tools": [ "Jira"]
+            "text": "Architected and deployed API testing framework and monitoring system across 11 markets",
+            "tools": [ "API", "Elastic", "Kibana"]
           },  
           {
-            "text": "Developed a data‑driven audit procedure, reducing the required configurations by 40%.",
-            "tools": [  "Kibana",  "Elastic", "VBA", "SQL"]
+            "text": "Implemented automated testing solutions, doubling test coverage across platforms.",
+            "tools": [  "Python",  "Selenium", "Kibana"]
           },  
           {
-            "text": "Designed and managed the implementation of API unit testing  and reporting in all 11 VTV Markets.",
-            "tools": [  "API", "Kibana"]
-          },   
+            "text": "Developed and implemented cloud automation tools using AWS, Python and ELK stack, achieving 100% automation of infrastructure audit and migration processes.",
+            "tools": [  "Python", "Kibana", "Elastic", "AWS", "API", "Postman"]
+          }     
+        ]
+      },
+      {
+        "title": "Gradute program",
+        "description": "Gained cloud platform experience through European TV services integration, whilst contributing to a case study execution and analysis",
+        "company": "Vodafone",
+        "location": "Lisbon, Portugal",
+        "startDate": "Sep 2020",
+        "endDate": "Jul 2021",
+        "technologies": ["Agile","Cloud-hosting", "API","Cloud-infrastructure", "Cloud-computing" ],
+        "natures": ["Project Management", "Data Analysis", "Data Visualization", "Cloud", "Business-Analysis"],
+        "bulletPoints": [
           {
-            "text": "Introduced several automated testing initiatives, improving testing coverage over 100%.",
-            "tools": [ "Python", "Selenium", "Kibana"]
-          },   
+            "text": "Supported the technical integration of the TV Service in Albania.",
+            "tools": []
+          },
           {
-            "text": "Built custom audit and migration tools,replacing 100% of previous manual tasks.",
-            "tools": [ "Python", "AWS", "Kibana", "Elastic", "Postman"]
-          }       
+            "text": "Managed back-end configurations for TV devices across markets, reducing post-integration issues in 20%",
+            "tools": []
+          },
+          {
+            "text": "Engineered data-driven audit system using ELK stack and SQL, reducing configuration overhead by 40%.",
+            "tools": [ "Elastic", "Kibana", "VBA", "SQL"]
+          },    
+          {
+            "text": "Analyzed customer sentiment on mobile, TV, and internet packages to assess current and future needs.",
+            "tools": [ ]
+          },  
+          {
+            "text": "Spearheaded a website for users to personalize packages and simulate pricing, capturing behavior data for insights.",
+            "tools": [  "React",  "Java-Script"]
+          },  
+          {
+            "text": "Proposed data-driven improvements to package offerings, enhancing customer alignment and satisfaction.",
+            "tools": []
+          } 
         ]
       }
     ],
