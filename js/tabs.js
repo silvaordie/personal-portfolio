@@ -103,7 +103,7 @@ function toggleChatBox() {
 
         // Fetch response from local API (/api/answer)
         try {
-          const response = await fetch("https://josesilvaportfolio-75e2f4030643.herokuapp.com/api/answer", {
+          const response = await fetch("https://web-production-60fa.up.railway.app/api/answer", {
             method: "POST",
             headers: {
               "Content-Type": "application/json"
