@@ -16,11 +16,11 @@
     },
     {
         "title": "Housepicker",
-        "description": "Personal webscrapping project to automatically fetch appartments to rent, and classify them according to the commuting time to points of interest and other relevant metrics like Price, Area and living quality.\n\nAppartment information was Webscrapped from the most populat swiss housing websites.\nCommuting distance gathered from Google Mapas API.\nData visualization and classification via Google sheets.\n\nThe Spreadsheet that calculates the commuting times and ranks each appartment is available for free at: <a class = 'hyperlink' href='https://payhip.com/b/QtdWY' target = '_blank' >My Spreadsheet shop </a>",
+        "description": "Personal webscrapping project to automatically fetch appartments to rent, and classify them according to the commuting time to points of interest and other relevant metrics like Price, Area and living quality.\n\nAppartment information was Webscrapped from the most popular swiss housing websites.\nCommuting distance gathered from Google Maps API.\nData visualization and classification via Google sheets and currently working on a React Web App hosted on Firebase.\n\nThe Spreadsheet that calculates the commuting times and ranks each appartment is available for free at: <a class = 'hyperlink' href='https://payhip.com/b/QtdWY' target = '_blank' >My Spreadsheet shop </a>",
         "overview": "Personal webscrapping project to automatically fetch appartments to rent, and classify them according to the commuting time to points of interest and other relevant metrics like Price, Area and living quality.",
-        "natures": ["Personal Project", "Data Engineering", "Data Analysis" ],
-        "technologies": ["Webscraping", "API"],
-        "tools": ["Python","Google API","Google Sheets", "Apps Script"],
+        "natures": ["Personal Project", "Data Engineering", "Data Analysis", "Front-end Dev", "Back-end Dev", "Full-Stack Dev" ],
+        "technologies": ["Webscraping", "API", "Cloud-hosting"],
+        "tools": ["Python","Google API","Google Sheets", "Apps Script", "React", "JavaScript", "HTML", "CSS", "Firebase", "Google Cloud"],
         "media": {
             "pdf": null,
             "video": null,
@@ -165,9 +165,9 @@
     {
         "title": "Personal Digital Resume",
         "description": "This Website was built in order to extend the traditional resume format. Allowing curious minds to showcase their different endeaveours through technology in a more meaningful and easy to understand way.\n\nThe template will soon be available to download.",
-        "overview":"A digital resume where users can filter by experiences, technologies and tools. (This website)",
-        "natures": ["Personal Project", "Web Development"],
-        "technologies": ["Web-dev"],
+        "overview":"A digital resume where users can filter by experiences, technologies and tools. They can also know more about the onwer, by chatting with a AI impersonation. (This website)",
+        "natures": ["Personal Project", "Web Development", "Artificial Intelligence", "Front-end Dev", "Back-end Dev", "Full-Stack Dev"],
+        "technologies": ["Web-dev", "Generative AI"],
         "tools": ["HTML", "CSS", "JavaScript"],
         "media": {
             "pdf": null,
