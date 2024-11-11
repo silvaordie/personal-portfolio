@@ -6,7 +6,7 @@ from flask import Flask, request, jsonify
 
 messages = {}
 app = Flask(__name__)
-CORS(app, resources={r"/api/*": {"origins": "https://silvaordie.github.io"}})
+CORS(app, origins=["https://silvaordie.github.io"])
 with open("data/projects/experiences.json", 'r', encoding="utf8") as e:
     experiences = json.load(e)
 
