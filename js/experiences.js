@@ -32,7 +32,6 @@ export function fetchAndDisplayExperiences() {
             const topNatures = getTopItems('natures', experiences_j);
             const topTechnologies = getTopItems('technologies', experiences_j);
             const topTools = getTopItems('tools', experiences_j);
-            console.log("asdfsdf")
 
             natureChart = createPieChart('nature', topNatures, 'Top Natures');
             technologyChart = createPieChart('technology', topTechnologies, 'Top Technologies');
@@ -45,7 +44,6 @@ export function fetchAndDisplayExperiences() {
         const technologyFilter = document.getElementById('technology-filter');
         const toolsFilter = document.getElementById('tools-filter');
 
-        console.log(natureFilter.onchange);
         natureFilter.removeEventListener('change', function() {
             addFilter('nature', this.value);
         });
@@ -217,7 +215,6 @@ function createBulletPoint(point) {
 }
 
 function addFilter(type, value) {
-    console.log(value)
     if (!value) return; // Ignore empty selections
     switch (type) {
         case "nature":
