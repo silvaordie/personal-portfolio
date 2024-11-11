@@ -23,7 +23,6 @@ function getTopItems(category, allProjects, limit = 10) {
                 } 
             });
         });
-        console.log(countMap)
     }
 
     // Sort the items by count and limit to top 5
