@@ -7,10 +7,10 @@ from flask import Flask, request, jsonify
 messages = {}
 app = Flask(__name__)
 CORS(app)#, origins=["https://silvaordie.github.io"], methods=["GET", "POST", "OPTIONS"])
-with open("data/projects/experiences.json", 'r', encoding="utf8") as e:
+with open("../data/projects/experiences.json", 'r', encoding="utf8") as e:
     experiences = json.load(e)
 
-with open("data/projects/projects.json", 'r', encoding="utf8") as p:
+with open("../data/projects/projects.json", 'r', encoding="utf8") as p:
         projects = json.load(p)
 
 COOLDOWN_TIME = 2     
