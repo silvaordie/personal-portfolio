@@ -72,7 +72,9 @@ if (!userId) {
 // Toggle chat box visibility
 function toggleChatBox() {
     const chatBox = document.getElementById("chatBox");
+    const chatTooltip = document.getElementById("chat-tooltip");
     chatBox.style.display = chatBox.style.display === "block" ? "none" : "block";
+    chatTooltip.style.display = chatTooltip.style.display = "none";
   }
   
   // Send message to the chat (fetching response from the API)

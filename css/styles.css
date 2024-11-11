@@ -652,7 +652,12 @@ canvas{
     cursor: pointer;
     position: relative;
     border: 3px solid #4A90E2; /* Blue border around the circular button */
-  }
+    transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.chat-button:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
   
   /* Chat Icon Image (Square to Circle Crop) */
   .chat-icon {
@@ -666,18 +671,16 @@ canvas{
   /* Tooltip */
   .chat-tooltip {
     position: absolute;
-    bottom: 70px;
-    background-color: #333;
-    color: white;
-    padding: 5px 10px;
+    width: fit-content;
+    right: 60px;
+    background-color: #e4e4e4;
+    color: rgb(92, 92, 92);
+    padding: 10px 10px;
     border-radius: 5px;
-    font-size: 12px;
-    display: none;
-  }
-  
-  /* Show Tooltip on Hover */
-  .chat-button:hover .chat-tooltip {
-    display: block;
+    border-color: #0366d6;
+    font-size: 16px;
+    overflow: hidden;
+    white-space: nowrap;
   }
   
     
