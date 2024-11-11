@@ -7,8 +7,8 @@
         "location": "Basel-Stadt, Switzerland",
         "startDate": "Aug 2023",
         "endDate": "Present",
-        "technologies": ["API", "Databases", "Systems Programming", "DevOps"],
-        "natures": ["Test Automation", "Automation", "Data Engineering", "Data Visualization", "Software Development", "ETL", "ELT"],
+        "technologies": ["API", "Databases", "Systems Programming", "DevOps", "ETL", "ELT"],
+        "natures": ["Test Automation", "Automation", "Data Engineering", "Data Visualization", "Software Development"],
         "bulletPoints": [
           {
             "text": "Improved automated E2E and Unitary tests' reliability in 90%",

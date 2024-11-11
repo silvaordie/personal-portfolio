@@ -8,6 +8,28 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
+    <!-- Chat Button and Chat Box -->
+    <!-- Chat Button and Chat Box -->
+<div class="chat-container">
+    <div class="chat-button" onclick="toggleChatBox()">
+      <img src="images/profile.jpg" alt="Chat Icon" class="chat-icon">
+      <span class="chat-tooltip">Let's chat!</span>
+    </div>
+  
+    <div class="chat-box" id="chatBox">
+      <div class="chat-header">
+        <span>Chat with us</span>
+        <button class="close-button" onclick="toggleChatBox()">✕</button>
+      </div>
+      <div class="chat-content" id="chatContent">
+        <!-- Chat messages will appear here -->
+        <div class="chat-history-title">You are now chatting with an AI impersonation of José Silva. Please beware that the AI only has access to information from this website alone, and can sometimes provide inacurate descriptions.</div>
+      </div>
+      <input type="text" class="chat-input" id="chatInput" placeholder="Type a message..." onkeypress="sendMessage(event)">
+    </div>
+  </div>
+  
+  
     <!-- Include the header (profile + introduction) -->
     <div id="header-container"></div>
         
@@ -26,6 +48,5 @@
     <script src="js/pieChart.js"></script>   
     <script src="js/filters.js"></script>
     <script src="js/colorUtils.js"></script>
-
 </body>
 </html>

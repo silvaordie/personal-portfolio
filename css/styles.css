@@ -511,6 +511,177 @@ canvas{
     min-height: 5px; /* Minimum height */
     margin-right: 5px; /* Space between color box and text */
 }
+/* Basic Reset */
+/* Basic Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Chat Container */
+  .chat-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+  }
+  
+  /* Chat Box */
+  .chat-box {
+    display: none;
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    width: 350px; /* Suitable width for iMessage-like layout */
+    max-height: 500px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+    z-index: 100;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  /* Chat Header */
+  .chat-header {
+    background-color: #4A90E2; /* iOS Blue */
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  
+  /* Close Button */
+  .close-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Chat Content */
+  .chat-content {
+    padding: 10px 15px;
+    overflow-y: auto;
+    height: 350px;
+    font-size: 14px;
+    line-height: 1.5;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+  }
+  
+  /* Message Bubbles */
+  .message {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 3px; /* Increase space between messages */
+    border-radius: 20px;
+    font-size: 14px;
+    word-wrap:normal;
+  }
+  
+  /* User's Message */
+  .user-message {
+    float: right;
+    padding: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: #e5e5ea; /* Light gray background for user */
+    width: fit-content;
+    color: #000;
+    border-radius: 20px 20px 0 20px;
+    margin-right: 10px;
+    max-width: 80%; /* Prevents it from stretching too wide */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for user messages */
+  }
+  .chat-history-title {
+    margin:auto;
+    background-color: #f0f0f5; /* Light Grey Background */
+    color: #888; /* Grey Text */
+    padding: 8px 10px;
+    font-size: 11px;
+    text-align: center;
+    font-weight: 300;
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 15px; /* Space below the title */
+  }
+  /* Bot's Message */
+  .bot-message {
+    padding: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    align-self: flex-end;
+    background-color: #4A90E2; /* iOS Blue background for the bot */
+    color: white;
+    width: fit-content;
+    border-radius: 20px 20px 20px 0;
+    margin-left: 10px;
+    max-width: 70%; /* Prevents it from stretching too wide */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for bot messages */
+  }
+  
+  /* Chat Input */
+  .chat-input {
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    border-top: 1px solid #eee;
+    border-radius: 20px;
+  }
+  
+  /* Chat Button */
+  /* Chat Button */
+.chat-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; /* Make the button circular */
+    background-color: #ffffff; /* White background for the button */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    border: 3px solid #4A90E2; /* Blue border around the circular button */
+  }
+  
+  /* Chat Icon Image (Square to Circle Crop) */
+  .chat-icon {
+    width: 50px;  /* Size of the image inside the button */
+    height: 50px; /* Make sure the image is square */
+    object-fit: cover; /* Crop the image to fill the circle */
+    border-radius: 50%; /* Make the image circular */
+  }
+  
+  
+  /* Tooltip */
+  .chat-tooltip {
+    position: absolute;
+    bottom: 70px;
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    display: none;
+  }
+  
+  /* Show Tooltip on Hover */
+  .chat-button:hover .chat-tooltip {
+    display: block;
+  }
+  
+    
+  
 @media (max-width: 480px) {
     body {
         font-size: 12px;
@@ -548,7 +719,7 @@ canvas{
     .project-card-info {
         font-size: 10px;
     }
-
+/* Basic Reset */
 }
 
 
