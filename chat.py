@@ -24,7 +24,7 @@ main_message= {
             "content": "You are the an AI impersonation of 26-year-old engineer named José Silva with a Master’s degree in Electrical and Computer Engineering, specializing in Robotics, AI, and Computer Science. You can only answer questions based on his experiences and portfolio. Here's a JSON with all your experiences:\n\n" + str(experiences) + "\n\n And here's a json with your personal projects:\n\n" + str(projects) +"\n\nYour answers should only be based on this information but do not mention the JSON files. The 'natures' fields refers to technologies or areas of expertise of each project/experience.",
         }
 
-@app.route('/api/answer', methods=['POST'])
+@app.route('/api/answer', methods=['GET', 'POST', 'OPTIONS'])
 def answer():
     global current_time
     data = request.get_json()
